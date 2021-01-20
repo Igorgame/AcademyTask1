@@ -4,7 +4,12 @@
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
 }
-
+ p {
+     color: #929292;
+ }
+ h1 {
+     color:#000000;
+ }
 
 header {
     background-color: #F5FCFD;
@@ -14,54 +19,6 @@ header {
     background-position: center;
     width: 100%;
     box-sizing: border-box;
-
-}
-
-.features {
-    background: #F5FCFD;
-    width: 100%;
-    height: auto;
-    position: relative;
-    z-index: 10;
-}
-
-.about {
-background:#FFFFFF;
-position: relative;
-z-index: 10;
-}
-
-.rectangle {
-    height: 612px;
-    width: 604px;
-opacity: 1;
-background: #0F7BFF;
-}
-
-.workinfo{
-background: #F5FCFD;
-width: 100%;
-height: auto;
-}
-
-.feedback {
-    background: #F5FCFD;
-    width: 100%;
-    height: auto;
-}
-
-.freetrial {
-    background-color: #F5FCFD;
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    box-sizing: border-box;
-}
-.trialinfo {
-    position: absolute;
-    left: 30%;
-    display: inline-block;
 }
 
 ul {
@@ -85,6 +42,62 @@ ul li a{
 ul li a:hover{
    color: #0F7BFF;
 }
+
+.features {
+    background: #F5FCFD;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 10;
+    -ms-flex-item-align: center;
+    padding-left: 20%;
+}
+
+.about {
+background:#FFFFFF;
+position: relative;
+z-index: 10;
+}
+
+.rectangle {
+
+}
+
+.textpanel {
+    margin-right: auto;
+}
+
+.workinfo{
+background: #F5FCFD;
+width: 100%;
+height: auto;
+}
+
+.hdiw {
+text-align: center;
+}
+
+.feedback {
+    background: #F5FCFD;
+    width: 100%;
+    height: auto;
+}
+
+.freetrial {
+    background-color: #F5FCFD;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.trialinfo {
+    position: absolute;
+    left: 30%;
+    display: inline-block;
+}
+
+
 
 
 .logo img{
@@ -282,4 +295,9 @@ color:black
 
 footer {
     background: #0F7BFF;
+}
+
+
+.fbck {
+    margin-left: auto;
 }
