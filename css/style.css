@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -14,6 +15,53 @@ header {
     width: 100%;
     box-sizing: border-box;
 
+}
+
+.features {
+    background: #F5FCFD;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 10;
+}
+
+.about {
+background:#FFFFFF;
+position: relative;
+z-index: 10;
+}
+
+.rectangle {
+    height: 612px;
+    width: 604px;
+opacity: 1;
+background: #0F7BFF;
+}
+
+.workinfo{
+background: #F5FCFD;
+width: 100%;
+height: auto;
+}
+
+.feedback {
+    background: #F5FCFD;
+    width: 100%;
+    height: auto;
+}
+
+.freetrial {
+    background-color: #F5FCFD;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.trialinfo {
+    position: absolute;
+    left: 30%;
+    display: inline-block;
 }
 
 ul {
@@ -41,7 +89,7 @@ ul li a:hover{
 
 .logo img{
     float: left;
-    width: 180px;
+    width: auto;
     height: auto;
     padding-left: 5%;
 }
@@ -57,7 +105,7 @@ ul li a:hover{
 }
 
 .signup {
-    border: 1px solid#0063DD;
+  
     padding: 10px 30px;
     background: #0063DD;
     color: #FFFFFF;
@@ -81,17 +129,21 @@ ul li.hactive a{
 
 .title {
     position: absolute;
-    top: 20%;
-    left: 45%;
+    top: 15%;
+    left: 40%;
+    text-align: center;
+ 
 }
 
 .title h1 {
 color:black
+
 }
 
 .title p {
   color:#929292;
   width: 500px;
+  padding-top: 10px;
 }
 
 .btns {
@@ -120,7 +172,7 @@ color:black
 
 .dnld:hover {
     background:#FFFFFF;
-    color: #0F7BFF;    
+    color: #0F7BFF;
 }
 .trial:hover {
     background:#0F7BFF;
@@ -129,77 +181,79 @@ color:black
 
 .phones {
     position: absolute;
-    padding: 23% 20%;
+    padding: 23% 16%;
     z-index: 0;
+    margin: auto;
+
+    
 
 }
 
-
-.container {
-    max-width: 100%;
+.scrolldn {
+    border: 1px solid #DCDCDC;
+    background: #FFFFFF;
+    width: 71px;
+    height: 71px;
+    border-radius:50%;
+    margin: auto;
 }
 
-.features {
-    background: #F5FCFD;
-    width: 100%;
-    height: auto;
-    position: relative;
-    z-index: 100;
-}
 .fch {
     margin:auto;
-    
+    padding: 20px;
+    align-items:center;
+
 }
-.square1 {
+.square {
     width:361px;
     height: 291px;
     border: 1px solid black;
     background:#FFFFFF;
+    border-radius: 10px;
+    text-align: center;
 }
-
 .square2 {
     width:361px;
     height: 291px;
     border: 1px solid black;
     background:#FFFFFF;
-}
-
-.square3 {
-    width:361px;
-    height: 291px;
-    border: 1px solid black;
-    background:#FFFFFF;
+    border-radius: 10px;
+    margin-top: 20%;
+    text-align: center;
 }
 
 
+.roll1 {
+    border: 1px solid#DFEDFF;
+    background: #DFEDFF;
+     width: 71px;
+    height: 71px;
+    border: radius 50%;
+    padding: 20px;
+    margin: auto;
+}
 
-.workinfo{
-background: #F5FCFD;
-width: 100%;
-height: auto;
+.roll2 {
+    border: 1px solid#F5DFFF;
+    background: #F5DFFF;
+    width: 71px;
+    height: 71px;
+    border: radius 50%;
+    padding: 15px;
+    margin: auto;
+}
+
+.roll3 {
+    border: 1px solid #DFFFE3;
+    background: #DFFFE3;
+    width: 71px;
+    height: 71px;
+    border: radius 100px;
+    margin: auto;
+    padding: 20px;
 }
 
 
-
-.feedback {
-    background: #F5FCFD;
-    width: 100%;
-    height: auto;
-}
-
-.freetrial {
-    background-color: #F5FCFD;
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    box-sizing: border-box;
-}
-.trialinfo {
-    position: absolute;
-    left: 30%;
-    display: inline-block;
-}
 
 .trydays h1 {
 color:black
@@ -212,6 +266,8 @@ color:black
 .startbtn {
     margin-left: 50%;
 }
+
+
 .getstarted {
     border: 1px solid #0F7BFF;
     padding: 10px 30px;
@@ -219,31 +275,11 @@ color:black
     color: #FFFFFF;
     text-decoration: none;    
 }
-.scrolldn {
-    border: 1px solid #DCDCDC;
-    background: #FFFFFF;
-    width: 100px;
-    height: auto;
-    border-radius:50%;   
+.getstarted:hover {
+    background:#FFFFFF;
+    color: #0F7BFF;    
 }
 
-.roll1 {
-    border: 1px solid#DFEDFF;
-  width: 71px;
-  height: 71px;
-  border: radius 50%;
-}
-
-.roll2 {
-    border: 1px solid#F5DFFF;
-  width: 71px;
-  height: 71px;
-  border: radius 50%;
-}
-
-.roll3 {
-    border: 1px solid #DFFFE3;
-  width: 71px;
-  height: 71px;
-  border: radius 50%;
+footer {
+    background: #0F7BFF;
 }
