@@ -1,170 +1,366 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
- 
+
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+       <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        
-        <div class="nav">
-            <div class="logo"> 
-                <img src="img/logo.png">
-            </div>
-            <div class="sign">
-                <a href="#" class="signup">SIGN UP</a>
-            </div>
-            <ul>
-                <li class="hactive"><a href="#"> HOME</a></li>
-                <li><a href="#"> FEATURES</a></li>
-                <li><a href="#"> PRICING</a></li>
-                <li><a href="#"> PAGES</a></li>
-            </ul>
-        </div>
-
-            <div class="title">
-                <h1>Best Desktop App for You</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="btns">
-                <a href="#" class="dnld">Download</a>
-                <a href="#" class="trial">Free trial</a>
-            </div>           
-            <img src="img/phones.png" class="phones">
-    </header>
-
-
-    <section class="features">         
-
-        <div >
-            <button class="scrolldn"><img src="img\skrolldown.png"</button> 
-        </div>
-        <div class="fch">
-            <table>
-                <td class="square">   
-                    <div class="roll1">
-                        <img src="img\feature1.png" alt="F1">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container-header">
+                <div class="header__body">
+                    <div class="header__logo">
+                        <img src="img/logo.png">
                     </div>
-                    <h2>Analysis</h2>
+                    <div class="header__burger">
+                        <img src="img/menu.png">
+                    </div>
+                    <nav class="header__menu">
+                        <ul class=header__list>
+                            <li><a href="#" class="header__link"> HOME</a></li>
+                            <li><a href="#" class="header__link"> FEATURES</a></li>
+                            <li><a href="#" class="header__link"> PRICING</a></li>
+                            <li><a href="#" class="header__link"> PAGES</a></li> 
+                            <li><a href="#" class="sign__up">SIGN UP</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                    <div class="title">
+                        <h1><strong> Best Desktop App for You</strong></h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="btns">
+                        <a href="#" class="dnld">Download</a>
+                        <a href="#" class="trial">Free trial</a>
+                    </div>
+                <img src="img/phones.png" class="phones">
+                
+            </div>
+        </header>
+    
+        <div class="skrl">
+                <button class="sdn">
+                    <img src="img/skrolldown.png">
+                </button>
+    </div>
+
+
+    <div class="features">
+        <div class="container-fluid">
+            <div class="container-features">
+                <div class="row text-center justify-content-center ">
+                    <div class="cil-4">
+                        <div class="box">
+                            <img src="img\feature1.png" alt="feature1" class="roll1">
+                            <h5>Analysis</h5><br>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cil-4">
+                        <div class="box2">
+                            <img src="img\feature2.png" alt="feature2" class="roll2">
+                            <h5>Clean Design</h5><br>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cil-4">
+                        <div class="box">
+                            <img src="img\feature3.png" alt="feature3" class="roll3">
+                            <h5>Messaging</h5><br>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col"><img src="img\em.png." alt="Easy Messaging" class="emimg"></div>
+            
+                <div class="col">
+                    <div class="emtxt">
+                    <h2>Easy Messaging</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                </td>
-
-                <td class="square2">
-                    <div class="roll2">
-                        <img src="img\feature2.png" alt="F2">
+                    <button class="rm">Read More &#8594</button>
                     </div>
-                    <h2>Clean Design</h2>
+                </div>
+
+                <div class="w-100"></div>
+
+                <div class="col">
+                    <div class="kittxt">
+                    <h2>Keep It Touch</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                </td>
-
-                <td class="square">
-                    <div class="roll3">
-                        <img src="img\feature3.png" alt="F2">
+                    <button class="rm">Read More &#8594</button>
                     </div>
-                    <h2>Messaging</h2>
-                    <p>L
-                        orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.
+                </div>
+                <div class="col"> <img src="img\kit.png" alt="Keep In Touch" class="kitimg"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="workinfo">
+        <div class="container-fluid">
+            <div class="container-hdiw">
+                <div class="hdiw">
+                <h2>How Does It Works?</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
                     </p>
-                </td>
-            </table>
-        </div>
-    </section>
+                </div>
+                
+                <div class="row text-center justify-content-center">
 
-    <section class="about">
-        <h1>О нас</h1>
+                    <div class="cil-4">
+                        <div class="hdiwicons">
+                            <img src="img/winfo1.png" alt="createacc">
+                            <div class="hdiwtxt">
+                                <h5>Create An Account</h5><br>
+                                <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <div class="cil-4">
+                        <div class="hdiwicons">
+                            <img src="img/winfo2.png" alt="createacc">
+                            <h5>Confirm Email</h5><br>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                            </p>
+                        </div>
+                    </div>
 
-        <div class="collage1">
-            <div class="rectangle">
+                    <div class="cil-4">
+                        <div class="hdiwicons">
+                            <img src="img/winfo3.png" alt="createacc">
+                            <h5>See Results</h5><br>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="textpanel">
-            <h1>Easy Messaging</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.
-            </p>
-        </div>
         </div>
 
-        <div class="collage2">
-            <div class="rectangle2">
-            </div>
-            <div class="textpanel2">
-                <h1>Keep In Touch</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.
-                </p>
+
+
+<div class="subscribe">
+        <div class="container-fluid">
+            <div class="container-subscribe">
+                <div class="row text-center justify-content-center ">
+                    <div class="cil-4">
+                        <div class="plan">
+                            <div>
+                                <h2>Pricing Plan</h2>
+                                <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                                </p>
+                            </div>
+                
+                            <div class="btnspay">
+                                <a href="#" class="mnth">Monthly</a>
+                                <a href="#" class="year">Yearly</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cil-4">
+                        <img src="img/subscribe1.png" alt="standard">
+                        <h4>Standard</h4>
+                        <hr>
+                        <p>2gb Hosing</p>
+                        <p>10 Custom Domain</p>
+                        <p>SSD Hosting</p>
+                        <p>50 gb Bandwith</p>
+                        <p>Free Support</p>
+                        <h3 class="price">$19.00</h3>
+                        <a href="#" class="mnth">Try Now</a>
+                    </div>
+                    <div class="cil-4">
+                        <div class="premium">
+                            <img src="img/subscribe2.png" alt="premium">
+                            <h4>Premium</h4>
+                            <hr>
+                            <p>2gb Hosing</p>
+                            <p>10 Custom Domain</p>
+                            <p>SSD Hosting</p>
+                            <p>50 gb Bandwith</p>
+                            <p>Free Support</p>
+                            <h3 class="price">$49.00</h3>
+                            <a href="#" class="mnth">Try Now</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
 
-    </section>
-    
-    <section class="workinfo">
-        <div class="hdiw">
-            <h1>How Does It Works?</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.
-            </p>
+
+
+
+
+    <div class="container-fluid">
         
-        </div>
-         <table class="hdiwicons">
-        <tr>
-            <td>
-<h2>Create An Account</h2>
-            </td>
-            <td>
-<h2>Confirm Email</h2>
-            </td>
-            <td>
-<h2>See Results</h2>
-            </td>
-        </tr>
-    </table>
-</section>
-   
-    <section class="subscribe"><h1>Подписки</h1>
-        <div class="prplan">
-            <h1>Pricing Plan</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.
-            </p>
-        </div>
-        <div class="prbtn">
-            <a href="#" class="monthly">Monthly</a>
-            <a href="#" class="Yearly">Yearly</a>
-        </div>
+            <div class="fbck"><img src="img/feedback.png" alt="peoples"></div>
+        <table>
+            <tr class="col">
+                <div class="info">
+                    <h2>Trusted By More Than 55M Peoples</h2>
+                </div>
+            </tr>
 
-    </section>
+
+            <tr class="col">
+                <div class="carousel">
+                    <div class="twitter-carousel">
+                        <div class="twitter-carousel-item">
+                          <h4>Raisa Moni</h4>
+                          <img src="img//twitterfeedback.png" alt="twitter-logo">
+                          <p class="news-author">Envato Customer</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.</p>
+                        </div>
+                        <div class="twitter-carousel-item">
+                          <h4>Raisa Moni</h4>
+                          <img src="img//twitterfeedback.png" alt="twitter-logo">
+                          <p class="news-author">Envato Customer</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.</p>
+                        </div>
+                        <div class="twitter-carousel-item">
+                          <h4>Raisa Moni</h4>
+                          <img src="img//twitterfeedback.png" alt="twitter-logo">
+                          <p class="news-author">Envato Customer</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.</p>
+                        </div>
+                     </div>
+                </div>
+            </tr>
     
-    <section class="feedback">
-    <img src="img/feedback.png" class="fbck" alt="Feedback">
-    </section>
-    
-    <section class="news"><h1>Новости</h1></section>        
-    
-    <section class="freetrial">
-        <h1>free</h1>
-        <div class="startbtn">
-        <a href="#" class="getstarted">Get started</a>
+        </table>
+    </div> 
+
+
+ 
+
+
+  <div class="news">
+    <div>
+      <h2>Latest News From Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <div class="container-news">
+        <div class="row text-center justify-content-center ">
+
+            <div class="cil-6">
+                <div class="lastnews">
+                  <img src="img/news1.png" alt="last news">
+      <h3>The master bedroom suite is phenomenally spacious</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+      <a class="btn-read-more" href="#">Continue Reading &#8594;</a>
+                </div>
+            </div>
+
+            <div class="cil-6">
+                <div class="othernews">
+                    <div class="news-2">
+                        <a href="#">
+                        <img src="img/news2.png" alt="news 2">
+                        <h4>The master bedroom suite is phenomenally spacious</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        </a>
+                    </div>
+                    <div class="news-3">
+                        <a href="#">
+                        <img src="img/news3.png" alt="news 3">
+                        <h4>The master bedroom suite is phenomenally spacious</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        </a>
+                    </div>
+                    <div class="news-4">
+                        <a href="#">
+                        <img src="img/news4.png" alt="news 4">
+                        <h4>The master bedroom suite is phenomenally spacious</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        </a>
+                    </div>
+                    </div>
+                   
+                </div>
+            </div>
         </div>
-        <div class= "trialinfo">
-            <h1 class="trydays">Try 30 Days Free Trial</h1>
-            <p class="withoutcard">No credit card required</p>
-        </div>       
-    </section>
+    </div>    
+  </div>
 
-    <footer>
-        <h1>Footer</h1>
+  <!--Try 30 days free-->
+  <div class="freetrial">
+    <h2>Try 30 Days Free Trial</h2>
+    <p>No credit card required</p>
+    <div class="getstarted">
+      <button>Get Started &#8594;</button>
+    </div>
+  </div>
 
-        <div class></div>
-    </footer>
-    <script src="js/script.js"></script>
+  <footer>
+    <div>
+      <div>
+        <h3>AppSon</h3>
+        <input type="text" name="Enter Your Email">
+        <button>Subscribe</button>
+      </div>
+      <hr>
+      <div>
+        &#169; 2018 Copyright, All Rights Reserved by AppSon
+        <ul>
+          <li>
+            <a class="btn-footer" href="#">Terms & Condition</a>
+          </li>
+          <li>
+            <a class="btn-footer" href="#">Privacy Policy</a>
+          </li>
+          <li>
+            <a class="btn-footer" href="#">Help</a>
+          </li>
+        </ul>
+
+        <a href="#"><img src="img/facebook-logo.png"></a>
+        <a href="#"><img src="img/twitter-logo.png"></a>
+        <a href="#"><img src="img/youtube-logo.png"></a>
+      </div>
+
+      <button class="btn-page-up">&#8593;</button>
+    </div>
+
+</footer>
+    </div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>    
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
