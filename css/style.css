@@ -754,6 +754,44 @@ margin-right: 50%;
  justify-content:right;
 }
 
+/*-------Free-------*/
+.gettrial {
+    display: flex; 
+    align-items:center;
+    justify-content: center;
+}
+
+.freetrial {
+    display: table-cell;
+    justify-content: center;
+    max-width: 100%;
+    width: 610px;
+    margin: auto;
+    padding-top: 35px;
+
+}
+
+.getstarted {
+    border: 1px solid #0F7BFF;
+        padding: 10px 30px;
+        background:#0F7BFF;
+        color: #FFFFFF;
+        text-decoration: none;
+        font-weight: bold;
+}
+
+
+
 /*-------FOOTER-------*/
+.infolinks {
+margin: 0 auto;
+display: list-item;
+}
 
-
+footer {
+    background: #0F7BFF;
+    padding: 40px 0;
+    color:#E4E4E4;
+    position: relative;
+    justify-content: space-between;
+}
