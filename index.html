@@ -28,7 +28,7 @@
                             <li><a href="#" class="header__link"> FEATURES</a></li>
                             <li><a href="#" class="header__link"> PRICING</a></li>
                             <li><a href="#" class="header__link"> PAGES</a></li> 
-                            <li><a href="#" class="sign__up">SIGN UP</a></li>
+                            <li><button class="sign__up">SIGN UP</button></li>
                         </ul>
                     </nav>
                 </div>
@@ -38,8 +38,8 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                     <div class="btns">
-                        <a href="#" class="dnld">Download</a>
-                        <a href="#" class="trial">Free trial</a>
+                        <button class="dnld">Download</button>
+                        <button class="trial">Free trial</button>
                     </div>
                 <img src="img/phones.png" class="phones">
                 
@@ -91,9 +91,9 @@
 
 
     <div class="about">
-        <div class="container-fluid">
+        <div class="container-about">
             <div class="row">
-                <div class="col"><img src="img\em.png." alt="Easy Messaging" class="emimg"></div>
+                <div class="col"><img src="img\em.png" alt="Easy Messaging" class="emimg"></div>
             
                 <div class="col">
                     <div class="emtxt">
@@ -119,46 +119,38 @@
                 <div class="col"> <img src="img\kit.png" alt="Keep In Touch" class="kitimg"></div>
             </div>
         </div>
-    </div>
-
+    </div>  
 
     <div class="workinfo">
         <div class="container-fluid">
             <div class="container-hdiw">
-                <div class="hdiw">
                 <h2>How Does It Works?</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
-                    </p>
-                </div>
-                
-                <div class="row text-center justify-content-center">
-
-                    <div class="cil-4">
-                        <div class="hdiwicons">
-                            <img src="img/winfo1.png" alt="createacc">
-                            <div class="hdiwtxt">
-                                <h5>Create An Account</h5><br>
-                                <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
-                                </p>
-                            </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                </p>
+            
+                <div class="row text-center justify-content-center ">
+                    <div class="cil-lg-4">
+                        <div class="hdiwbox">
+                            <img src="img/winfo1.png" alt="hdiw1" class="hdiw1">
+                            <h5>Create An Account</h5><br>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                            </p>
                         </div>
                     </div>
-                        
-                    <div class="cil-4">
-                        <div class="hdiwicons">
-                            <img src="img/winfo2.png" alt="createacc">
+                    <div class="cil-lg-4">
+                        <div class="hdiwbox">
+                            <img src="img/winfo2.png" alt="hdiw2" class="hdiw2">
                             <h5>Confirm Email</h5><br>
                             <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
                             </p>
                         </div>
                     </div>
-
-                    <div class="cil-4">
-                        <div class="hdiwicons">
-                            <img src="img/winfo3.png" alt="createacc">
+                    <div class="cil-lg-4">
+                        <div class="hdiwbox">
+                            <img src="img/winfo3.png" alt="hdiw3" class="hdiw3">
                             <h5>See Results</h5><br>
                             <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
@@ -168,30 +160,36 @@
                 </div>
             </div>
         </div>
+    </div>
 
 
 
-<div class="subscribe">
-        <div class="container-fluid">
-            <div class="container-subscribe">
-                <div class="row text-center justify-content-center ">
-                    <div class="cil-4">
-                        <div class="plan">
-                            <div>
-                                <h2>Pricing Plan</h2>
-                                <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
-                                </p>
-                            </div>
-                
-                            <div class="btnspay">
-                                <a href="#" class="mnth">Monthly</a>
-                                <a href="#" class="year">Yearly</a>
-                            </div>
+
+
+
+
+ <div class="subscribe">
+       <div class="container price">
+           <div class="row d-flex flex-row p-4">
+                <div class="col-lg-4 text-center p-3">
+                    <div class="plan">
+                        <div class="txtplan">
+                            <h2>Pricing Plan</h2>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+                            </p>
+                        </div>
+                        <div class="btnspay">
+                            <switch class="mnth">Monthly</switch>
+                            <switch class="year">Yearly</switch>
                         </div>
                     </div>
-                    <div class="cil-4">
+                </div>
+
+                <div class="col-lg-4 text-center p-3">
+                    <div class="standard">
                         <img src="img/subscribe1.png" alt="standard">
+                        <br>
                         <h4>Standard</h4>
                         <hr>
                         <p>2gb Hosing</p>
@@ -199,22 +197,26 @@
                         <p>SSD Hosting</p>
                         <p>50 gb Bandwith</p>
                         <p>Free Support</p>
-                        <h3 class="price">$19.00</h3>
-                        <a href="#" class="mnth">Try Now</a>
+                        <h3>$19.00</h3>
+                        <br>
+                        <button class="stadardprice">Try Now</button>
                     </div>
-                    <div class="cil-4">
-                        <div class="premium">
-                            <img src="img/subscribe2.png" alt="premium">
-                            <h4>Premium</h4>
-                            <hr>
-                            <p>2gb Hosing</p>
-                            <p>10 Custom Domain</p>
-                            <p>SSD Hosting</p>
-                            <p>50 gb Bandwith</p>
-                            <p>Free Support</p>
-                            <h3 class="price">$49.00</h3>
-                            <a href="#" class="mnth">Try Now</a>
-                        </div>
+                </div>
+
+                <div class="col-lg-4 text-center p-3">
+                    <div class="premium">
+                        <img src="img/subscribe2.png" alt="premium">
+                        <br>
+                        <h4>Premium</h4>
+                        <hr>
+                        <p>2gb Hosing</p>
+                        <p>10 Custom Domain</p>
+                        <p>SSD Hosting</p>
+                        <p>50 gb Bandwith</p>
+                        <p>Free Support</p>
+                        <h3>$49.00</h3>
+                        <br>
+                        <button class="premiumprice">Try Now</button>
                     </div>
                 </div>
             </div>
@@ -352,12 +354,12 @@
 
       <button class="skrollup">&#8593;</button>
     </div>
-</div>
+
 
 </footer>
 
 
-    </div>
+</div>  
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>    
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
